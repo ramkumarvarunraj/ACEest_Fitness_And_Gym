@@ -14,8 +14,9 @@ A simple desktop application for logging workouts, built with Python and Tkinter
 
 1.  **Clone the repository:**
     ```bash
-    git clone <repository-url>
-    cd Dev
+    git clone https://github.com/ramkumarvarunraj/ACEest_Fitness_And_Gym.git
+    ```
+    **Once clone done, navigate to the above path in the local repo where you cloned the project**
 
 2.  **Install dependencies:**
     This project uses `pip` for package management. The required packages are listed in `requirements.txt`.
