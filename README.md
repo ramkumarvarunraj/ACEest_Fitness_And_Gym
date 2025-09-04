@@ -15,8 +15,8 @@ A simple desktop application for logging workouts, built with Python and Tkinter
 1.  **Clone the repository:**
     ```bash
     git clone https://github.com/ramkumarvarunraj/ACEest_Fitness_And_Gym.git
+    cd ACEest_Fitness_And_Gym
     ```
-    **Once clone done, navigate to the above path in the local repo where you cloned the project**
 
 2.  **Install dependencies:**
     This project uses `pip` for package management. The required packages are listed in `requirements.txt`.
@@ -43,6 +43,10 @@ pytest
 The repository is configured with `pre-commit` hooks to automatically format code, check for issues, and run tests before each commit. To enable these hooks, run this command once after cloning:
 ```bash
 pre-commit install
+```
+If the pre commit is not installed, run the below command and try again.
+```bash
+pip install pre-commit
 ```
 
 ## Containerization
